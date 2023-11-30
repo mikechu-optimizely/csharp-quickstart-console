@@ -1,0 +1,14 @@
+{
+	"name": "Optimizely Quickstart C# (.NET)",
+	"image": "mcr.microsoft.com/devcontainers/dotnet:1-7.0-bullseye",
+	"postCreateCommand": "dotnet restore",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-dotnettools.vscode-dotnet-runtime",
+				"ms-dotnettools.csharp",
+				"ms-dotnettools.csdevkit"
+			]
+		}
+	}
+}

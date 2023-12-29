@@ -1,7 +1,7 @@
 {
 	"name": "Optimizely Quickstart C# (.NET)",
 	"image": "mcr.microsoft.com/devcontainers/dotnet:1-7.0-bullseye",
-	"postCreateCommand": "pushd src/ && dotnet restore && popd",
+	"postCreateCommand": "cd src/ && dotnet restore && cd..",
 	"customizations": {
 		"vscode": {
 			"extensions": [
